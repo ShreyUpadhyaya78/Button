@@ -1,8 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app is written in ReactJS and compiled with Vite. Use `npm install` to install the dependencies and then run `npm run dev` in terminal to use the webapp.
+The output is as shown below:
+![image](https://github.com/ShreyUpadhyaya78/Button/assets/58781064/49d2693a-94a0-477b-ab3c-faca01323f33)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app uses `Context API` (`useContext` and `createContext`) to make the state of button click available to other components and `useReducer` to store and act upon the states.
